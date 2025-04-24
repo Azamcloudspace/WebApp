@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "AfterInstall: Done"
-
+chown -R apache:apache /var/www/html
+chmod -R 755 /var/www/html
